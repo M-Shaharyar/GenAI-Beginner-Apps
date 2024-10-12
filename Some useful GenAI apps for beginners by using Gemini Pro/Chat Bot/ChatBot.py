@@ -21,10 +21,10 @@ def get_gemini_response(question):
     return response.text
 
 # Set the configuration for the Streamlit app, including the page title
-st.set_page_config(page_title="Q&A Demo")
+st.set_page_config(page_title="ChatBot Demo")
 
 # Display the application header with specified font size
-st.markdown("<h1 style='font-size:40px;'>Gemini LLM Application</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size:40px;'>Chat with Gemini Pro</h1>", unsafe_allow_html=True)
 
 # Create an input text box for the user to type their question with specified font size
 st.markdown("<p style='font-size:40px;'>Input:</p>", unsafe_allow_html=True)
